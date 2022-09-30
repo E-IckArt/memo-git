@@ -22,13 +22,15 @@
 - git checkout <hash du commit> : déplace le head sur un commit
 - `^ `	: revenir d’un commit en arrière,  
 ex: `git checkout main^`  
-ou `git checkout HEAD^` pour utiliser la référence relative)
+ou `git checkout HEAD^` pour utiliser la référence relative)  
+
 - `^^ `	: revenir de deux commits en arrière,  
 ex: `git checkout main^^`  
 ou `git checkout HEAD^`
 - `~<num> ` : revenir de plusieurs commits en arrière,  
 ex: `git checkout main~5`  
-ou `git checkout HEAD~5`
+ou `git checkout HEAD~5`  
+
 - `git branch -f main HEAD~3` : réassigner les branches à un commit avec l’option -f (= force)
 
 
