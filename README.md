@@ -46,6 +46,6 @@ ou `git checkout HEAD~5`
 - `git log --graph --oneline`
 
 
-## Récupère la dernier version du fichier désigné et la colle à la place de la version actuelle
 
-- `git restore une_incroyable_histoire.md`
+
+
