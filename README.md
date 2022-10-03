@@ -45,12 +45,24 @@ ou `git checkout HEAD~5`
 
 ## Voir tous les commits
 
-- `git log`
-- `git log --oneline`
-- `git log --graph`
-- `git log --graph --oneline`
+- `git log` :  voir l'historique des commits avec toutes les infos.
+- `git log --oneline` : voir les commits , les infos de chaque commit tiennent sur une ligne.
+- `git log --graph` : voir un graph avec tous les commits.
+- `git log --graph --oneline` : voir un graph avec les infos de chaque commit sur une seule ligne.
+- `git log --pretty=oneline` : voir le hash et le nom du commit sur une seule ligne.
 
 
 ## Récupère la dernier version du fichier désigné et la colle à la place de la version actuelle
 
 - `git restore une_incroyable_histoire.md`
+
+## Les tags
+
+*Un tag est une branche qui ne change pas, il ne possède pas d'historique des commits*
+
+- `git tag` : lister les étiquettes existantes.
+- `git tag <tagname>` : créer une étiquette légère ( = sans aucune information à conserver, message ou autre)
+- `git tag -a <tagname> -m '<message>'` : créer une étiquette annotée.
+- `git show <tagname>` :  voir les données de l'étiquette.
+- `git push origin [nom-du-tag]` : pousse le tag sur la branche distante.q
+q
