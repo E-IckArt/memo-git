@@ -15,9 +15,13 @@ There is two ways to add an image :
 
 ### Git tag : 
 
-![alt text](git_tag.png "Tag en image")
+![alt text](tags.png "Tag en image")
 
 ## Jour 2 
+
+### Github issues
+
+![alt text](issues.png "Issues en image")
 
 ### Travail du groupe Michelle, Romain, Zackaria, Emilie
 
