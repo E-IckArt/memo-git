@@ -76,3 +76,18 @@ ou `git checkout HEAD~5`
 Il peut être suivi de `git merge origin/<nomDeLaBrancheDistante>` pour mettre à jour le dépôt local.
 - `git remote show origin` : répertorie les connexions distantes avec d'autres dépôts et en affiche les détails.
 
+## Gérer les issues
+
+Créer une nouvelle branche avec pour nom le n°de ticket ou l'id de l'issue ou son titre.
+Faire les modifications.
+Faire un commit.
+#### Le message de commit doit contenir : `resolve  #<idIssue>` 
+Cela permet fermer l’issue une fois que le commit est passé.
+
+Une issue se referme quand le commit arrive sur la branche distante sur laquelle l’issue a été ouverte : 
+- Pousser sur la branche de développement (branche de l'issue).
+- ( Merger la branche de développement avec la branche main.
+
+
+
+
