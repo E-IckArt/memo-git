@@ -46,6 +46,31 @@ ou `git checkout HEAD~5`
 - `git log --graph --oneline`
 
 
+## Récupère la dernier version du fichier désigné et la colle à la place de la version actuelle
 
+- `git restore une_incroyable_histoire.md`
 
+## Les tags
+
+*Un tag est une branche qui ne change pas, il ne possède pas d'historique des commits*
+
+- `git tag` : lister les étiquettes existantes.
+- `git tag <tagname>` : créer une étiquette légère ( = sans aucune information à conserver, message ou autre)
+- `git tag -a <tagname> -m '<message>'` : créer une étiquette annotée.
+- `git show <tagname>` :  voir les données de l'étiquette.
+- `git push origin [nom-du-tag]` : pousse le tag sur la branche distante.
+
+## Récupère la dernier version du fichier désigné et la colle à la place de la version actuelle
+ 
+- `git restore une_incroyable_histoire.md`
+ 
+## Interagir avec le dépôt distant
+ 
+- `git remote` : répertorie les connexions distantes avec d'autres dépôts. 
+- `git remote -v` : répertorie les connexions distantes avec d'autres dépôts et inclut l'URL de chaque connexion.
+ 
+- `git checkout origin/<nomDeLaBranche>`  : détache le HEAD sur la branche distante. La branche sera mise à jour après un `git commit`.
+- `git fetch` : télécharge les commits que le dépôt distant possède mais qui ne sont pas dans le nôtre, puis met à jour nos branches distantes. ###Ne change pas l'état local ##. 
+Il peut être suivi de `git merge origin/<nomDeLaBrancheDistante>` pour mettre à jour le dépôt local.
+- `git remote show origin` : répertorie les connexions distantes avec d'autres dépôts et en affiche les détails.
 
