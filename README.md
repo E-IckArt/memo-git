@@ -51,6 +51,7 @@ ou `git checkout HEAD~5`
 - `git log --graph --oneline` : voir un graph avec les infos de chaque commit sur une seule ligne.
 - `git log --pretty=oneline` : voir le hash et le nom du commit sur une seule ligne.
 
+
 ## Récupère la dernier version du fichier désigné et la colle à la place de la version actuelle
  
 - `git restore une_incroyable_histoire.md`
