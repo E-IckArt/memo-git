@@ -66,8 +66,6 @@ ou `git checkout HEAD~5`
 - `git show <tagname>` :  voir les données de l'étiquette.
 - `git push origin [nom-du-tag]` : pousse le tag sur la branche distante.
 
-- `git restore une_incroyable_histoire.md`
-
 ## Interagir avec le dépôt distant
  
 - `git remote` : répertorie les connexions distantes avec d'autres dépôts. 
