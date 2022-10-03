@@ -36,12 +36,17 @@ ou `git checkout HEAD~5`
 
 ## Annuler des changements avec Git :
 
-- `git reset` : annule le dernier commit sur le dépôt local
-- `git revert` : annuler des changements sur la branche courante et le dépôt distant
+- `git reset` : annule le dernier commit sur le dépôt local.
+- `git revert` : annuler des changements sur la branche courante et le dépôt distant.
+- `git commit --amend` : annule le dernier commit.
+- `git clean` :  annule les changements non commités. Commande complémentaire à `git reset` et `git revert`.
+- 'git add' : modifier le staging index.
+- `git rm --cached <file>...` : retire le fichier de la zone de staging (annule un git add).
 
 ## Voir tous les commits
 
 - `git log`
+- `git log --oneline`
 - `git log --graph`
 - `git log --graph --oneline`
 
