@@ -89,5 +89,5 @@ Une issue se referme quand le commit arrive sur la branche distante sur laquelle
 - ( Merger la branche de développement avec la branche main.
 
 
-
+ATTENTION : Ne pas mettre d’accent dans les titres des issues :  ils servent aussi de nom de branche si la branche est créée depuis l’issue dans Github.
 
