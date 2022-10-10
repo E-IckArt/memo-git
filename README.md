@@ -19,7 +19,7 @@
 
 ## Se déplacer dans l'historique
 
-- git checkout <hash du commit> : déplace le head sur un commit
+- `git checkout <hash du commit>` : déplace le head sur un commit
 - `^ `	: revenir d’un commit en arrière,  
 ex: `git checkout main^`  
 ou `git checkout HEAD^` pour utiliser la référence relative)  
@@ -40,7 +40,7 @@ ou `git checkout HEAD~5`
 - `git revert` : annuler des changements sur la branche courante et le dépôt distant.
 - `git commit --amend` : annule le dernier commit.
 - `git clean` :  annule les changements non commités. Commande complémentaire à `git reset` et `git revert`.
-- 'git add' : modifier le staging index.
+- `git add` : modifier le staging index.
 - `git rm --cached <file>...` : retire le fichier de la zone de staging (annule un git add).
 
 ## Voir tous les commits
@@ -78,16 +78,17 @@ Il peut être suivi de `git merge origin/<nomDeLaBrancheDistante>` pour mettre �
 
 ## Gérer les issues
 
-Créer une nouvelle branche avec pour nom le n°de ticket ou l'id de l'issue ou son titre.
-Faire les modifications.
-Faire un commit.
+- Créer une nouvelle branche avec pour nom le n°de ticket ou l'id de l'issue ou son titre.  
+- Faire les modifications.
+- Faire un commit.
+
 #### Le message de commit doit contenir : `resolve  #<idIssue>` 
 Cela permet fermer l’issue une fois que le commit est passé.
 
 Une issue se referme quand le commit arrive sur la branche distante sur laquelle l’issue a été ouverte : 
 - Pousser sur la branche de développement (branche de l'issue).
-- ( Merger la branche de développement avec la branche main.
+- Merger la branche de développement avec la branche main.
 
 
-ATTENTION : Ne pas mettre d’accent dans les titres des issues :  ils servent aussi de nom de branche si la branche est créée depuis l’issue dans Github.
+ATTENTION : Ne pas mettre d’accent dans les titres des issues => ils servent aussi de nom de branche si la branche est créée depuis l’issue dans Github.
 
