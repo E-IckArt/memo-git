@@ -1,5 +1,8 @@
 # Commandes GIT
 
+## Voir la configuration de git
+
+- `git config --list`
 
 ## Faire un commit
 - `git commit -m` : commiter des changements
